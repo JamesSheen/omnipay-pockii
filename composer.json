@@ -1,0 +1,30 @@
+{
+    "name": "jamessheen/omnipay-pockii", 
+    "type": "library",
+    "description": "Pockii gateway with Omnipay payment processing library",
+    "keywords": ["pockii", "omnipay", "gateway", "merchant", "pay", "payment", "purchase"],
+    "homepage": "https://github.com/jamessheen/omnipay-pockii", 
+    "license": "MIT",
+    "authors": [
+        {
+	    "name": "James Sheen",
+	    "email": "JamesSheen@users.noreply.github.com", 
+	    "homepage": "https://github.com/JamesSheen"
+	}
+    ], 
+    "autoload": {
+        "psr-4": { "JamesSheen\\Pockii\\" : "src/" } 
+    }, 
+    "require": {
+        "omnipay/common": "~2.0"
+    }, 
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }, 
+    "extra": {
+        "branch-alias": {
+	    "dev-master": "dev-master"
+	}
+    }
+}
+
