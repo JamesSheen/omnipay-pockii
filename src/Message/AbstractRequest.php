@@ -92,6 +92,8 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
 	    'trace' => true, 
 	    'cache_wsdl' => WSDL_CACHE_NONE, 
 	    'stream_context' => $context,
+	    'proxy_host' => 'localhost', 
+	    'proxy_port' => 80, 
 	];
 	try{
 	    $client = new SoapClient($this->getEndpoint(), $soap_opts);
