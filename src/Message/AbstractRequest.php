@@ -84,9 +84,9 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
 	    ], 
 	    'ssl' => [
 	    ], 
-	    'socket' => [
-	    	'bindto' => null,
-	    ], 
+	//    'socket' => [
+	//    	'bindto' => null,
+	//    ], 
 	];
 	$context = stream_context_create($context_opts);
 	$soap_opts = [
